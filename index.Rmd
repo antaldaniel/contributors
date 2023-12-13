@@ -1,5 +1,6 @@
 ---
 title: "Contributors Guidebook for the Data Observatories and Open Collections"
+subtitle: "Version 0.2.1"
 author: "Daniel Antal"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
@@ -51,9 +52,14 @@ knitr::opts_chunk$set(echo      = FALSE,
 library(dplyr)
 library(tidyr)
 library(knitr)
-library(kableExtra)
+library(kableExtra)  ## development version may be needed!
 library(here)
 here::here()
+is_word_output <- ifelse (knitr::is_html_output()|knitr::is_latex_output(), FALSE, TRUE)
+```
+
+
+```{r addgraphics, include=FALSE}
 add_graphics <- function( file_path_html, file_path_other=NULL) {
   
   if ( is.null(file_path_other) ) file_path_other <- file_path_html
@@ -67,7 +73,7 @@ add_graphics <- function( file_path_html, file_path_other=NULL) {
 source(here("R", "html_caption.R"))
 # Ellipsis: …
 
-is_word_output <- ifelse (knitr::is_html_output()|knitr::is_latex_output(), FALSE, TRUE)
+
 ```
 
 ::: {.rmdnote data-latex="{note}"}

@@ -22,7 +22,8 @@ This is often far more easier to write than to do, but still, if you can make it
 knitr::include_graphics(file.path("png", "tidy-9.png"))
 ```
 
-
 Our task in `WP4` is to help tidying some datasets that are commonly used in music, and surveying, and which will be used in WP1 (linking royalty accounts with SDMX compatible statistical data), WP2 (linking various, special purpose music data resources), and WP3 (DDI survey datasets, DDI survey codebooks). See more: [dataset: Create Data Frames that are Easier to Exchange and Reuse](https://zenodo.org/record/7440192#.ZCCcz9JBzlg).
+
+Please check out [APPENDIX: Data Tidying](#appendix-data-tidying) for a comprehensive example taken from the `Open Music Europe` Work Packages 1, 2, 3 with Excel and Word.
 
 

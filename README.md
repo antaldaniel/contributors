@@ -9,6 +9,8 @@
 
 The source files in this repository may contain small edits that are not yet reflected in the [Digital Music Observatory](https://zenodo.org/communities/music_observatory?q=&l=list&p=1&s=10&sort=newest) community repository on Zenodo.
 
+- `0.2.1`: The tidying of the KULT microdata documentation is added as an annex (2023-12-13.)
+
 ## Ignored files in .gitignore
 We place a list of folders and files that are ignored for synchronization from the user’s client computer to Github and beyond.  These are usually passwords, login credentials, project management or log files used by your IDE or other work environment.  We by default, excluded all Posit/RStudio standards, and usually all Jupiter Notebook standards, and a few Windows/Mac specific files.
 We also ignore a standard folder called `not_included`,  which serves as the place of your personal scrapbook, sandbox, that you do not want to share with anybody.
